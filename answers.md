@@ -38,73 +38,64 @@ Lý do không nên dùng table để tạo layout cho trang web:
 
 Câu C1
 
-### Câu C1: Thiết kế cấu trúc HTML cho trang chi tiết sản phẩm
-
-```html
 <header>
     <h1>THT Shop</h1>
-    <nav>
-        <a href="/">Trang chủ</a> | <a href="/products">Sản phẩm</a>
+    <nav aria-label="Main menu"> <ul>
+            <li><a href="/">Trang chủ</a></li>
+            <li><a href="/products">Sản phẩm</a></li>
+        </ul>
     </nav>
 </header>
 
-<nav aria-label="breadcrumb">
-    <ol>
-        <li><a href="/">Home</a></li>
-        <li>&nbsp;>&nbsp;</li>
+<nav aria-label="breadcrumb"> <ol> <li><a href="/">Trang chủ</a></li>
         <li><a href="/mobile">Điện thoại</a></li>
-        <li>&nbsp;>&nbsp;</li>
         <li aria-current="page">iPhone 16</li>
     </ol>
 </nav>
 
 <main>
-    <article>
-        <section class="gallery">
-            <h3>Hình ảnh thực tế</h3>
-            <figure>
-                <img src="front.jpg" alt="Mặt trước iPhone 16">
-                <img src="side.jpg" alt="Cạnh bên">
-                <img src="back.jpg" alt="Mặt lưng">
-                <figcaption>Bộ ảnh chi tiết mẫu iPhone 16 Pro Max</figcaption>
+    <article> <section class="gallery"> <header><h3>Bộ sưu tập hình ảnh</h3></header>
+            <figure> <img src="img1.jpg" alt="iPhone 16 góc thẳng">
+                <img src="img2.jpg" alt="iPhone 16 góc nghiêng">
+                <img src="img3.jpg" alt="iPhone 16 mặt sau">
+                <img src="img4.jpg" alt="Cạnh viền iPhone 16">
+                <img src="img5.jpg" alt="Hộp máy iPhone 16">
+                <figcaption>Chi tiết thiết kế iPhone 16 mới nhất</figcaption>
             </figure>
         </section>
 
         <section class="product-info">
-            <h2>iPhone 16 - Chính hãng VN/A</h2>
-            <p><strong>Giá bán:</strong> 25.990.000đ</p>
-            <p><strong>Đánh giá:</strong> 4.9/5 ⭐ (1.2k lượt bán)</p>
-            <p><strong>Mô tả:</strong> Chip A18 mạnh mẽ, thiết kế Titan sang trọng.</p>
+            <h2>iPhone 16 Pro Max</h2> <p class="price"><strong>Giá:</strong> 25.990.000đ</p>
+            <p class="rating"><strong>Đánh giá:</strong> 5.0 / 5 ⭐</p>
+            <p class="desc">Mô tả ngắn: Chip A18 Pro, màn hình OLED 120Hz...</p>
         </section>
 
         <section class="specs">
-            <h3>Cấu hình chi tiết</h3>
-            <table border="1">
-                <tr>
-                    <th scope="row">Màn hình</th>
-                    <td>OLED 6.3 inch</td>
-                </tr>
-                <tr>
-                    <th scope="row">Dung lượng</th>
-                    <td>256GB / 512GB</td>
-                </tr>
+            <h3>Thông số kỹ thuật</h3>
+            <table border="1"> <thead>
+                    <tr>
+                        <th>Đặc tính</th> <th>Thông tin chi tiết</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Màn hình</td>
+                        <td>6.3 inch Super Retina XDR</td> </tr>
+                </tbody>
             </table>
         </section>
 
         <section class="reviews">
             <h3>Bình luận từ người mua</h3>
-            <article>
-                <strong>Tạ Hoàng Thương:</strong>
-                <blockquote>Máy dùng rất mượt, giao hàng nhanh!</blockquote>
-            </article>
+            <article> <strong>Tạ Hoàng Thương:</strong>
+                <blockquote>Máy dùng rất mượt, giao hàng siêu nhanh!</blockquote> </article>
         </section>
     </article>
 
-    <aside>
-        <h3>Có thể bạn cũng thích</h3>
+    <aside> <h3>Sản phẩm tương tự</h3>
         <ul>
             <li><a href="/s24">Samsung Galaxy S24 Ultra</a></li>
-            <li><a href="/i15">iPhone 15 Pro Max</a></li>
+            <li><a href="/pixel9">Google Pixel 9 Pro</a></li>
         </ul>
     </aside>
 </main>
