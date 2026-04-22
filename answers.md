@@ -1,4 +1,4 @@
-#Câu A1 (Nguồn: 01_introduction_html_universe.md 1.1 Kiến trúc Client-Server, 1.2 HTTP, 1.3 Browser Rendering.)
+Câu A1 (Nguồn: 01_introduction_html_universe.md 1.1 Kiến trúc Client-Server, 1.2 HTTP, 1.3 Browser Rendering.)
 1. Thứ tự ít nhất 5 bước khi gõ https://shopee.vn:
    - DNS lookup: Trình duyệt tra cứu địa chỉ IP của shopee.vn từ DNS server.
    - TCP connection: Thiết lập kết nối TCP với server.
@@ -13,23 +13,24 @@
    ![Network Practice](./screenshots/network_practice.png.png)
    
 
-##Câu A2 (Nguồn: 04_visible_part_html.md)
+Câu A2 (Nguồn: 04_visible_part_html.md)
 - Trang web bị đánh giá SEO thấp vì:
   + dùng `<div class="header">` thay vì `<header>` cho phần đầu trang.
   + dùng `<div class="menu">` thay vì `<nav>` cho phần điều hướng.
   + dùng `<div class="main">` thay vì `<main>` cho phần nội dung chính.
   + dùng `<div class ="product">` thay vì `<article>` cho phần sản phẩm.
   + dùng `<div class="footer">` thay vì `<footer>` cho phần chân trang.
+  
   => Google không hiểu cấu trúc.
 
-##Câu A3
+Câu A3
 [ Hộp 1 ] (div: là các phần tử khối => bắt đầu trên một dòng mới)
 Text A Text B (span chiếm vừa đủ chiều ngang của nội dung, không làm ngắt dòng)
 [ Hộp 2 ]
 Text C Text D (text D in đậm(strong))
 [ Hộp 3 ]
 
-##Câu A4
+Câu A4
 <thead>: tiêu đề cột
 <tbody></tbody>: dữ liệu chính
 <tfoot>: tổng kết
@@ -38,7 +39,7 @@ Lý do không nên dùng table để tạo layout cho trang web:
 2. Khó responsive(table khó co giãn linh hoạt theo màn hình)
 3. Ảnh hưởng đến SEO (Screenreader sẽ hiểu nhầm là bảng dữ liệu)
 
-##Câu C1
+Câu C1
 
 <header>
     <h1>THT Shop</h1>
@@ -106,7 +107,7 @@ Lý do không nên dùng table để tạo layout cho trang web:
     <p>&copy; 2026 THT Shop - All rights reserved.</p>
 </footer>
 
-##Câu C2
+Câu C2
 Việc cho rằng chỉ cần dùng <div> và đặt tên lớp (class) là đủ là một tư duy phiến diện, chỉ nhìn thấy sự tiện lợi nhất thời mà bỏ qua những giá trị cốt lõi của phát triển Web bền vững. Dưới đây là những lý do tại sao HTML ngữ nghĩa là bắt buộc:
 - Tối ưu hóa công cụ tìm kiếm (SEO): Google Bot và các công cụ tìm kiếm không hiểu được ý nghĩa của các tên lớp do chúng ta tự đặt (ví dụ: <div class="tieude">). Thay vào đó, chúng tìm kiếm các thẻ như `<h1>`, `<header>` ,hay `<article>` để xác định cấu trúc dữ liệu quan trọng nhất. Nếu chỉ dùng <div>, trang web sẽ trở thành một "vùng đất bằng phẳng" không có điểm nhấn, khiến khả năng xếp hạng tìm kiếm bị giảm sút nghiêm trọng.
 - Khả năng tiếp cận (Accessibility): Đây là trách nhiệm đạo đức và kỹ thuật. Những người khiếm thị sử dụng phần mềm đọc màn hình (Screen Readers) dựa vào các thẻ ngữ nghĩa để điều hướng. Khi gặp thẻ <nav>, máy sẽ báo "Đây là menu"; khi gặp <main>, máy sẽ nhảy thẳng đến nội dung chính. Một trang web toàn <div> sẽ khiến họ hoàn toàn lạc lối vì máy không thể hiểu cấu trúc của nó.
