@@ -106,7 +106,7 @@ Câu C1
 
 Câu C2
 Việc cho rằng chỉ cần dùng <div> và đặt tên lớp (class) là đủ là một tư duy phiến diện, chỉ nhìn thấy sự tiện lợi nhất thời mà bỏ qua những giá trị cốt lõi của phát triển Web bền vững. Dưới đây là những lý do tại sao HTML ngữ nghĩa là bắt buộc:
-- Tối ưu hóa công cụ tìm kiếm (SEO): Google Bot và các công cụ tìm kiếm không hiểu được ý nghĩa của các tên lớp do chúng ta tự đặt (ví dụ: <div class="tieude">). Thay vào đó, chúng tìm kiếm các thẻ như <h1>, <header>, hay <article> để xác định cấu trúc dữ liệu quan trọng nhất. Nếu chỉ dùng <div>, trang web sẽ trở thành một "vùng đất bằng phẳng" không có điểm nhấn, khiến khả năng xếp hạng tìm kiếm bị giảm sút nghiêm trọng.
+- Tối ưu hóa công cụ tìm kiếm (SEO): Google Bot và các công cụ tìm kiếm không hiểu được ý nghĩa của các tên lớp do chúng ta tự đặt (ví dụ: <div class="tieude">). Thay vào đó, chúng tìm kiếm các thẻ như <h1>, <header> ,hay <article> để xác định cấu trúc dữ liệu quan trọng nhất. Nếu chỉ dùng <div>, trang web sẽ trở thành một "vùng đất bằng phẳng" không có điểm nhấn, khiến khả năng xếp hạng tìm kiếm bị giảm sút nghiêm trọng.
 - Khả năng tiếp cận (Accessibility): Đây là trách nhiệm đạo đức và kỹ thuật. Những người khiếm thị sử dụng phần mềm đọc màn hình (Screen Readers) dựa vào các thẻ ngữ nghĩa để điều hướng. Khi gặp thẻ <nav>, máy sẽ báo "Đây là menu"; khi gặp <main>, máy sẽ nhảy thẳng đến nội dung chính. Một trang web toàn <div> sẽ khiến họ hoàn toàn lạc lối vì máy không thể hiểu cấu trúc của nó.
 
 
