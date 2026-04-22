@@ -38,8 +38,6 @@ Lý do không nên dùng table để tạo layout cho trang web:
 
 Câu C1
 
-
-```html
 <header>
     <h1>THT Shop</h1>
     <nav>
