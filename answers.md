@@ -58,9 +58,9 @@ Câu C1
 <main> <!-- main cho nội dung chính -->
     <article> <section id="gallery">
             <header><h3>Hình ảnh thực tế</h3></header>
-            <figure> <img src="[main.jpg](https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-1_3.png)" alt="Mặt trước iPhone 16">
+            <figure> <img src="https://cellphones.com.vn/iphone-16.html" alt="Mặt trước iPhone 16">
                 <div class="thumbnails">
-                    <img src="[side.jpg](https://thegioialo.vn/wp-content/uploads/2024/06/iPhone-16-3-1.jpg)" alt="Cạnh bên">
+                    <img src="" alt="Cạnh bên">
                     <img src="[back.jpg](https://photo.znews.vn/w660/Uploaded/yqdlcqrwq/2024_06_24/12026062024.jpg)" alt="Mặt lưng">
                     </div>
                 <figcaption>Hình ảnh chi tiết mẫu iPhone 16</figcaption>
