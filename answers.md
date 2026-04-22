@@ -9,7 +9,9 @@
    - Mã trạng thái: Cho biết yêu cầu thành công (200) hay thất bại (404, 500).
    - Tổng thời gian: Thời gian để trang web tải hoàn tất.
    - Loại tệp: Phân biệt giữa file HTML, CSS, JavaScript hay hình ảnh.
-./screenshots/network_practice.png.png
+
+   ![Network Practice](./screenshots/network_practice.png.png)
+   
 
 ##Câu A2 (Nguồn: 04_visible_part_html.md)
 - Trang web bị đánh giá SEO thấp vì:
