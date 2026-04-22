@@ -38,6 +38,9 @@ Lý do không nên dùng table để tạo layout cho trang web:
 
 Câu C1
 
+### Câu C1: Thiết kế cấu trúc HTML cho trang chi tiết sản phẩm
+
+```html
 <header>
     <h1>THT Shop</h1>
     <nav>
