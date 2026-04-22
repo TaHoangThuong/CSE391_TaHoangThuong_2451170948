@@ -1,4 +1,4 @@
-##Câu A1 (Nguồn: 01_introduction_html_universe.md 1.1 Kiến trúc Client-Server, 1.2 HTTP, 1.3 Browser Rendering.)
+#Câu A1 (Nguồn: 01_introduction_html_universe.md 1.1 Kiến trúc Client-Server, 1.2 HTTP, 1.3 Browser Rendering.)
 1. Thứ tự ít nhất 5 bước khi gõ https://shopee.vn:
    - DNS lookup: Trình duyệt tra cứu địa chỉ IP của shopee.vn từ DNS server.
    - TCP connection: Thiết lập kết nối TCP với server.
