@@ -39,14 +39,16 @@ Lý do không nên dùng table để tạo layout cho trang web:
 Câu C1
 
 
-<header> <!-- header cho phần đầu trang -->
-    <div class="logo">THT Shop</div>
-    <nav aria-label="Main menu"> <a href="/">Trang chủ</a> | <a href="/products">Sản phẩm</a>
+```html
+<header>
+    <h1>THT Shop</h1>
+    <nav>
+        <a href="/">Trang chủ</a> | <a href="/products">Sản phẩm</a>
     </nav>
 </header>
 
-<nav aria-label="breadcrumb"> <!-- điều hướng -->
-    <ol style="display: flex; list-style: none;"> <!-- ol vìbreadcrumb có thứ tự -->
+<nav aria-label="breadcrumb">
+    <ol>
         <li><a href="/">Home</a></li>
         <li>&nbsp;>&nbsp;</li>
         <li><a href="/mobile">Điện thoại</a></li>
@@ -55,31 +57,31 @@ Câu C1
     </ol>
 </nav>
 
-<main> <!-- main cho nội dung chính -->
-    <article> <section id="gallery">
-            <header><h3>Hình ảnh thực tế</h3></header>
-            <figure> <img src="https://cellphones.com.vn/iphone-16.html" alt="Mặt trước iPhone 16">
-                <div class="thumbnails">
-                    <img src="" alt="Cạnh bên">
-                    <img src="[back.jpg](https://photo.znews.vn/w660/Uploaded/yqdlcqrwq/2024_06_24/12026062024.jpg)" alt="Mặt lưng">
-                    </div>
-                <figcaption>Hình ảnh chi tiết mẫu iPhone 16</figcaption>
+<main>
+    <article>
+        <section class="gallery">
+            <h3>Hình ảnh thực tế</h3>
+            <figure>
+                <img src="front.jpg" alt="Mặt trước iPhone 16">
+                <img src="side.jpg" alt="Cạnh bên">
+                <img src="back.jpg" alt="Mặt lưng">
+                <figcaption>Bộ ảnh chi tiết mẫu iPhone 16 Pro Max</figcaption>
             </figure>
         </section>
 
-        <section id="product-details">
-            <h2>iPhone 16 - Chính hãng VN/A</h2> <data value="25990000">25.990.000đ</data> <div class="rating-badge">4.9/5 ⭐ (1.2k đánh giá)</div>
-            <article class="summary">
-                <h4>Mô tả sản phẩm:</h4>
-                <p>Chip A18 Pro mạnh mẽ, camera điều khiển bằng nút bấm mới...</p>
-            </article>
+        <section class="product-info">
+            <h2>iPhone 16 - Chính hãng VN/A</h2>
+            <p><strong>Giá bán:</strong> 25.990.000đ</p>
+            <p><strong>Đánh giá:</strong> 4.9/5 ⭐ (1.2k lượt bán)</p>
+            <p><strong>Mô tả:</strong> Chip A18 mạnh mẽ, thiết kế Titan sang trọng.</p>
         </section>
 
-        <section id="specification">
+        <section class="specs">
             <h3>Cấu hình chi tiết</h3>
-            <table border="1"> <caption>Bảng so sánh cấu hình</caption>
+            <table border="1">
                 <tr>
-                    <th scope="row">Màn hình</th> <td>OLED 6.3 inch</td>
+                    <th scope="row">Màn hình</th>
+                    <td>OLED 6.3 inch</td>
                 </tr>
                 <tr>
                     <th scope="row">Dung lượng</th>
@@ -88,22 +90,26 @@ Câu C1
             </table>
         </section>
 
-        <section id="user-reviews">
+        <section class="reviews">
             <h3>Bình luận từ người mua</h3>
-            <section class="comment-item"> <strong>Tạ Hoàng Thương:</strong>
-                <blockquote>Máy dùng rất mượt, giao hàng nhanh!</blockquote> </section>
+            <article>
+                <strong>Tạ Hoàng Thương:</strong>
+                <blockquote>Máy dùng rất mượt, giao hàng nhanh!</blockquote>
+            </article>
         </section>
     </article>
+
+    <aside>
+        <h3>Có thể bạn cũng thích</h3>
+        <ul>
+            <li><a href="/s24">Samsung Galaxy S24 Ultra</a></li>
+            <li><a href="/i15">iPhone 15 Pro Max</a></li>
+        </ul>
+    </aside>
 </main>
 
-<aside> <h4>Có thể bạn cũng thích</h4>
-    <ul> <li><a href="/samsung-s24">Samsung Galaxy S24 Ultra</a></li>
-        <li><a href="/iphone-15">iPhone 15 Pro Max</a></li>
-    </ul>
-</aside>
-
-<footer> <!-- footer cho cuối trang -->
-    <p>&copy; 2026</p>
+<footer>
+    <p>&copy; 2026 THT Shop - All rights reserved.</p>
 </footer>
 
 Câu C2
