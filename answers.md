@@ -55,7 +55,7 @@ Lý do không nên dùng table để tạo layout cho trang web:
 
 <main>
     <article> <section class="gallery"> <header><h3>Bộ sưu tập hình ảnh</h3></header>
-            <figure> <img src="img1.jpg" alt="iPhone 16 góc thẳng">
+            <figure> <img src="https://viettelstore.vn/tin-tuc/iphone-16-plus-den?srsltid=AfmBOoqs8hgH_VBK-4hwvGugbTKWP_yNm3_zpN9_VBujxjeGfIoa5nRN" alt="iPhone 16 góc thẳng">
                 <img src="img2.jpg" alt="iPhone 16 góc nghiêng">
                 <img src="img3.jpg" alt="iPhone 16 mặt sau">
                 <img src="img4.jpg" alt="Cạnh viền iPhone 16">
