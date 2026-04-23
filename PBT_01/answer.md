@@ -10,7 +10,7 @@ Câu A1 (Nguồn: 01_introduction_html_universe.md 1.1 Kiến trúc Client-Serve
    - Tổng thời gian: Thời gian để trang web tải hoàn tất.
    - Loại tệp: Phân biệt giữa file HTML, CSS, JavaScript hay hình ảnh.
 
-   ![Network Practice](./screenshots/network_practice.png.png)
+   ![Network Practice](./screenshots/screenshots-A1.png)
    
 
 Câu A2 (Nguồn: 04_visible_part_html.md)
