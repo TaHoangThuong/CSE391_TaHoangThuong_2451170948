@@ -131,3 +131,21 @@ Việc cho rằng chỉ cần dùng `<div>` và đặt tên lớp (class) là đ
    </aside>
    ```
 - Lỗi 12: Dòng 45 - Thẻ đóng p thiếu / - Thêm "/" vào thẻ đóng p.
+
+#### Câu B4
+1. Trong screenshot thegioididong.com ta thấy:
+   - 3 thẻ ngữ nghĩa HTML5 mà trang đó sử dụng:
+     + `<header>` – phần đầu trang. Tại dòng 14.
+     + `<html lang="vi-VN">` – khai báo ngôn ngữ. Tại dòng 2.
+     + <h1> – tiêu đề chính. Tại dòng 22.
+   - Thẻ mà trang đó KHÔNG dùng đúng ngữ nghĩa:
+     + Nội dung quan trọng nhưng không dùng semantic:
+       `<div class="body-home"></div>` Nên dùng `<main>`.
+2. Một `<table>` trên trang:
+   - Bảng hiển thị nội dung so sánh các hãng điện thoại (ví dụ: iPhone, Samsung, Oppo, …) trên trang của Thế Giới Di Động.
+   - Trang có dùng`<tbody> nhưng không dùng `<thead>`.
+3. Một `<form>` trên trang:
+   - Form đó có action: /tìm-kiem và không có method
+   - Loại đầu vào được sử dụng:
+     + `<input type="text">` → ô nhập tìm kiếm (text)
+     + `<button type="submit">` → nút gửi form
