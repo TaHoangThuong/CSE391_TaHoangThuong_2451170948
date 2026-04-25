@@ -122,7 +122,7 @@ Việc cho rằng chỉ cần dùng `<div>` và đặt tên lớp (class) là đ
 - Lỗi 6: Dòng 8 - Thẻ đóng h1 thiếu / - Thêm "/" vào thẻ đóng h1.
 - Lỗi 7: Dòng 12 - Thẻ đóng a thiếu / - Thêm "/" vào thẻ đóng a.
 - Lỗi 8: Dòng 20 - Thiếu "" ở src và thiếu alt - Sửa thành: `<img src="iphone.jpg" alt="iPhone 16 Pro">`.
-- Lỗi 9: Dòng 22 - Thẻ <p> phải đóng ngoài cùng. Thẻ <b> đóng sai và ko phải thẻ semantic, đổi thành <strong> - Sửa: `<p>Giá: <strong>25.990.000đ</strong></p>`.
+- Lỗi 9: Dòng 22 - Thẻ <p> phải đóng ngoài cùng. Thẻ <b> đóng sai và ko phải thẻ semantic, đổi thành `<strong>` - Chỉnh sửa: `<p>Giá: <strong>25.990.000đ</strong></p>`.
 - Lỗi 10: Dòng 28-35 - Thiếu thead, tbody - Đóng lại thead ở 28 và 31, tbody ở 32 và 35.
 - Lỗi 11: - Dòng 40 - Thừa main - Sửa: `<aside> <!--Thừa main đổi thành aside-->
         <p>Sidebar content</p>
