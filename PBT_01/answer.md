@@ -137,10 +137,10 @@ Việc cho rằng chỉ cần dùng `<div>` và đặt tên lớp (class) là đ
    - 3 thẻ ngữ nghĩa HTML5 mà trang đó sử dụng:
      + `<header>` – phần đầu trang. Tại dòng 14.
      + `<html lang="vi-VN">` – khai báo ngôn ngữ. Tại dòng 2.
-     + <h1> – tiêu đề chính. Tại dòng 22.
+     + `<h1>` – tiêu đề chính. Tại dòng 22.
    - Thẻ mà trang đó KHÔNG dùng đúng ngữ nghĩa:
      + Nội dung quan trọng nhưng không dùng semantic:
-       `<div class="body-home"></div>` Nên dùng `<main>`.
+       `<div class="body-home"></div>` nên dùng `<main>`.
 2. Một `<table>` trên trang:
    - Bảng hiển thị nội dung so sánh các hãng điện thoại (ví dụ: iPhone, Samsung, Oppo, …) trên trang của Thế Giới Di Động.
    - Trang có dùng`<tbody> nhưng không dùng `<thead>`.
