@@ -143,7 +143,7 @@ Việc cho rằng chỉ cần dùng `<div>` và đặt tên lớp (class) là đ
        `<div class="body-home"></div>` nên dùng `<main>`.
 2. Một `<table>` trên trang:
    - Bảng hiển thị nội dung so sánh các hãng điện thoại (ví dụ: iPhone, Samsung, Oppo, …) trên trang của Thế Giới Di Động.
-   - Trang có dùng`<tbody> nhưng không dùng `<thead>`.
+   - Trang có dung `<tbody>` nhưng không dùng `<thead>`.
 3. Một `<form>` trên trang:
    - Form đó có action: /tìm-kiem và không có method
    - Loại đầu vào được sử dụng:
