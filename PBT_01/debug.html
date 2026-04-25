@@ -1,0 +1,53 @@
+<!DOCTYPE html> <!--Thiếu html trong DOCTYPE-->
+<html lang="vi"> <!--Thiếu language, thêm lang = "vi"-->
+<head>
+    <title>Trang web</title> <!-- Title chưa đóng-->
+    <meta charset="UTF-8"> <!-- charset sai phải là UTF-8-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Thiếu meta viewport-->
+</head>
+<body>
+    <h1>Welcome to ShopTLU</h1><!--Thẻ đóng h1 thiếu /-->
+    
+    <header>
+        <nav>
+            <a href="home">Trang chủ</a><!--Thẻ đóng a thiếu /-->
+            <a href="products">Sản phẩm</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Sản phẩm hot</h2>
+            <img src="iphone.jpg" alt="iPhone 16 Pro"> <!-- Thiếu "" ở src và thiếu alt-->
+            <p>iPhone 16 Pro</p>
+            <p>Giá: <strong>25.990.000đ</strong></p> <!--Thẻ <b> đóng sai và ko phải thẻ semantic, đổi thành <strong> và thẻ <p> phải đóng ngoài cùng-->
+        </section>
+        
+        <section>
+            <h2>Thông tin</h2>
+            <table><!--Thiếu thead, tbody-->
+                <thead>
+                    <tr>
+                        <th>Tên</th>
+                        <th>Giá</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>iPhone</td>
+                        <td>25tr</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+    <aside> <!--Thừa main đổi thành aside-->
+        <p>Sidebar content</p>
+    </aside>
+    
+    <footer>
+        <p>Copyright 2026</p> <!--Thẻ đóng p thiếu /-->
+    </footer>
+</body>
+</html> <!--Thẻ đóng html thiếu /-->
