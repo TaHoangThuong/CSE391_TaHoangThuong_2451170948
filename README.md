@@ -3,5 +3,5 @@
    - Mã SV: 2451170948
    - Lớp: 66KTPM2
 2. Tiến độ:
-   - Phếu bài tập 1: Hoàn thành A,B,C
+   - Phiếu bài tập 1: Hoàn thành A,B,C
 
