@@ -112,3 +112,19 @@ Lý do không nên dùng table để tạo layout cho trang web:
 Việc cho rằng chỉ cần dùng `<div>` và đặt tên lớp (class) là đủ là một tư duy phiến diện, chỉ nhìn thấy sự tiện lợi nhất thời mà bỏ qua những giá trị cốt lõi của phát triển Web bền vững. Dưới đây là những lý do tại sao HTML ngữ nghĩa là bắt buộc:
 - Tối ưu hóa công cụ tìm kiếm (SEO): Google Bot và các công cụ tìm kiếm không hiểu được ý nghĩa của các tên lớp do chúng ta tự đặt (ví dụ: `<div class="tieude">`). Thay vào đó, chúng tìm kiếm các thẻ như `<h1>`, `<header>` ,hay `<article>` để xác định cấu trúc dữ liệu quan trọng nhất. Nếu chỉ dùng `<div>`, trang web sẽ trở thành một "vùng đất bằng phẳng" không có điểm nhấn, khiến khả năng xếp hạng tìm kiếm bị giảm sút nghiêm trọng.
 - Khả năng tiếp cận (Accessibility): Đây là trách nhiệm đạo đức và kỹ thuật. Những người khiếm thị sử dụng phần mềm đọc màn hình (Screen Readers) dựa vào các thẻ ngữ nghĩa để điều hướng. Khi gặp thẻ `<nav>`, máy sẽ báo "Đây là menu"; khi gặp <main>, máy sẽ nhảy thẳng đến nội dung chính. Một trang web toàn `<div>` sẽ khiến họ hoàn toàn lạc lối vì máy không thể hiểu cấu trúc của nó.
+
+#### Câu B3
+- Lỗi 1: Dòng 1 - Thiếu html trong DOCTYPE - Thêm html sau DOCTYPE.
+- Lỗi 2: Dòng 2 - Thiếu language, thêm lang = "vi" - Thêm lang = "vi".
+- Lỗi 3: Dòng 4 - Title chưa đóng - Thêm `</title>` sau Trang web.
+- Lỗi 4: Dòng 5 - charset sai phải là UTF-8.
+- Lỗi 5: Dòng 6 - Thiếu meta viewport - Thêm `<meta name="viewport" content="width=device-width, initial-scale=1.0">`.
+- Lỗi 6: Dòng 8 - Thẻ đóng h1 thiếu / - Thêm "/" vào thẻ đóng h1.
+- Lỗi 7: Dòng 12 - Thẻ đóng a thiếu / - Thêm "/" vào thẻ đóng a.
+- Lỗi 8: Dòng 20 - Thiếu "" ở src và thiếu alt - Sửa thành: `<img src="iphone.jpg" alt="iPhone 16 Pro">`.
+- Lỗi 9: Dòng 22 - Thẻ <p> phải đóng ngoài cùng. Thẻ <b> đóng sai và ko phải thẻ semantic, đổi thành <strong> - Sửa: `<p>Giá: <strong>25.990.000đ</strong></p>`.
+- Lỗi 10: Dòng 28-35 - Thiếu thead, tbody - Đóng lại thead ở 28 và 31, tbody ở 32 và 35.
+- Lỗi 11: - Dòng 40 - Thừa main - Sửa: `<aside> <!--Thừa main đổi thành aside-->
+        <p>Sidebar content</p>
+    </aside>`.
+- Lỗi 12: Dòng 45 - Thẻ đóng p thiếu / - Thêm "/" vào thẻ đóng p.
