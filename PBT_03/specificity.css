@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #f8fafc;
+  color: #111827;
+}
+
+h1 {
+  margin-bottom: 16px;
+}
+
+#demo {
+  margin: 16px 0;
+  padding: 18px;
+  border: 2px dashed #cbd5e1;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+p {
+  color: orange;
+}
+
+.text {
+  color: yellow;
+}
+
+.highlight {
+  color: green;
+}
+
+p.text {
+  color: blue;
+}
+
+body p {
+  color: red;
+}
+
+#demo {
+  color: purple;
+}
+
+p#demo {
+  color: brown;
+}
+
+.text.highlight {
+  color: violet;
+}
+
+p.text.highlight {
+  color: pink;
+}
+
+#demo.text {
+  color: aqua;
+}
