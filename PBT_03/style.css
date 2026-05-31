@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fb;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #2d5fff, #3359d4);
+  color: #ffffff;
+  padding: 24px 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #d3e2ff;
+}
+
+nav a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+nav a.active {
+  color: #fff;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.85);
+}
+
+section#Skills table {
+  border-collapse: collapse;
+}
+
+section#Skills thead tr {
+  background-color: #1f3b8a;
+  color: #ffffff;
+}
+
+section#Skills tr:nth-child(even) {
+  background-color: #eef3ff;
+}
+
+section#Skills tr:hover {
+  background-color: #d7e2ff;
+}
+
+footer {
+  background-color: #1d2e67;
+  color: #cbd4f0;
+  text-align: center;
+}
