@@ -1,0 +1,50 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.sidebar {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid black;
+  float: left;
+}
+.content {
+  width: 660px;
+  padding: 30px;
+  border: 1px solid black;
+  float: left;
+}
+
+.fixed-box-sizing * {
+  box-sizing: border-box;
+}
+
+.fixed-box-sizing .sidebar {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.fixed-box-sizing .content {
+  width: 660px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.fixed-manual .sidebar {
+  width: 258px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.fixed-manual .content {
+  width: 598px;
+  padding: 30px;
+  border: 1px solid black;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}

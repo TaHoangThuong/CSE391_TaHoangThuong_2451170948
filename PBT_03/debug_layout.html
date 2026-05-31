@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Debug Layout</title>
+    <link rel="stylesheet" href="debug_layout.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Debug Layout</h1>
+      <section>
+        <h2>Layout bị vỡ (content-box mặc định)</h2>
+        <div class="container broken">
+          <div class="sidebar">Sidebar</div>
+          <div class="content">Content</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Cách 1: Dùng border-box</h2>
+        <div class="container fixed-box-sizing">
+          <div class="sidebar">Sidebar</div>
+          <div class="content">Content</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Cách 2: Điều chỉnh width để bù padding/border</h2>
+        <div class="container fixed-manual">
+          <div class="sidebar adjusted">Sidebar</div>
+          <div class="content adjusted">Content</div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
