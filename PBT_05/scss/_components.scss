@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-primary;
+  background: $background-color;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.header {
+  background: $secondary-color;
+  color: $text-color;
+  padding: $spacing-md;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.menu-icon {
+  font-size: 24px;
+}
+
+.menu {
+  display: none;
+}
+
+.container {
+  padding: $spacing-md;
+}
+
+.sidebar {
+  display: none;
+}
+
+.ads {
+  display: none;
+}
+
+.tablet-filter {
+  display: none;
+  margin-bottom: 20px;
+  select {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: $card-bg;
+  padding: $spacing-md;
+  border-radius: 10px;
+  @include card-shadow;
+
+  h3 {
+    margin: 10px 0;
+  }
+
+  p {
+    color: $danger-color;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: $primary-color;
+    color: $text-color;
+    border-radius: 5px;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  &.featured {
+    border: 2px solid gold;
+  }
+}
+
+.footer {
+  background: $secondary-color;
+  color: $text-color;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+@include respond-to(tablet) {
+  body {
+    font-size: 15px;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    gap: 20px;
+
+    a {
+      color: $text-color;
+      text-decoration: none;
+    }
+  }
+
+  .tablet-filter {
+    display: block;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@include respond-to(desktop) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 200px 1fr 150px;
+    gap: 20px;
+  }
+
+  .sidebar {
+    display: block;
+    background: $card-bg;
+    padding: $spacing-md;
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+  }
+
+  .ads {
+    display: block;
+  }
+
+  .ads-box {
+    background: $card-bg;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .tablet-filter {
+    display: none;
+  }
+}
